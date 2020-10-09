@@ -3,7 +3,7 @@
 int main(void)
 {
 	char a = 'h';
-	void *p;
+	char *p;
 	p = &a;
 	printf("a: %c\n", *p);
 	return 0;
